@@ -287,17 +287,6 @@ a:focus {
   margin-bottom: 16px;
 }
 
-/* .service-form {
-  margin-top: 16px;
-} */
-
-/* .service-form input {
-  margin-top: 4px;
-  font-size: 12px;
-  padding: 8px 16px;
-  border: 1px solid var(--LIGHT-SLATE);
-  border-radius: 4px;
-} */
 
 .service-label {
   display: flex;
@@ -642,14 +631,15 @@ a:focus {
   outline: 1px solid var(--WHITE);
   background: none;
   border-radius: 4px;
-  padding: 8px;
+  padding: 10px;
   width: 264px;
   /* height: 40px; */
   border-style: none;
   background-color: none;
   flex-shrink: 0;
   margin-right: 16px;
-  
+  position: relative;
+  margin-top: 16px;
 }
 
 .ftr-sub-input::placeholder {
@@ -673,12 +663,18 @@ a:focus {
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
+  position: absolute;
   display: inline-flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   gap: 16px;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  margin-top: 12px;
 }
 
 /* end of footer */

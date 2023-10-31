@@ -619,13 +619,6 @@ a:focus {
   background-color: var(--GREEN);
 }
 
-/* .ftr-form {
-  display: flex;
-  gap: 24px;
-  flex-shrink: 0;
-  width: 165px;
-  height: 40px;
-} */
 
 .ftr-sub-input {
   outline: 1px solid var(--WHITE);
@@ -675,6 +668,18 @@ a:focus {
   line-height: 24px;
   letter-spacing: 0.64px;
   margin-top: 12px;
+}
+
+.sub-btn:hover,
+.sub-btn:focus {
+  background-color: var(--OCEAN);
+  cursor: pointer;
+}
+
+.ftr-sub-input:hover,
+.ftr-sub-input:focus {
+outline-color: var(--IRIS);
+color: var(--WHITE);
 }
 
 /* end of footer */
